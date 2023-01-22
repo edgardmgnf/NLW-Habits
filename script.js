@@ -25,11 +25,4 @@ const data = JSON.parse(localStorage.getItem("NLWSetup@habits")) || {};
 nlwSetup.setData(data);
 nlwSetup.load();
 
-// const data = {
-//   run: ["01-02", "01-03", "01-04", "01-05", "01-06"],
-//   water: ["01-02"],
-//   read: ["01-04"],
-// };
 
-// nlwSetup.setData(data);
-// nlwSetup.load();
